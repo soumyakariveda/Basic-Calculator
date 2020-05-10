@@ -17,11 +17,11 @@ public class App {
       double ans;
       char op;
       String s;
-      //Scanner in = new Scanner(System. in);
-      //System. out. println("Enter an equation (like 3+4) ");
-      //s = in. nextLine();
-      //Scanner reader = new Scanner(System.in);
-      s="3*4";
+      Scanner in = new Scanner(System. in);
+      System. out. println("Enter an equation (like 3+4) ");
+      s = in. nextLine();
+      Scanner reader = new Scanner(System.in);
+      //s="3*4";
       String t="";
       int i=0;
       while(i<s.length() && s.charAt(i)!='+' && s.charAt(i)!='/' && s.charAt(i)!='-' && s.charAt(i)!='*' )
