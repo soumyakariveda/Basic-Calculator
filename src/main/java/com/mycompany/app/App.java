@@ -21,7 +21,7 @@ public class App {
       //System. out. println("Enter an equation (like 3+4) ");
       //s = in. nextLine();
       //Scanner reader = new Scanner(System.in);
-      s="3+4";
+      s="3*4";
       String t="";
       int i=0;
       while(i<s.length() && s.charAt(i)!='+' && s.charAt(i)!='/' && s.charAt(i)!='-' && s.charAt(i)!='*' )
@@ -43,10 +43,10 @@ public class App {
             break;
          case '-': ans = subtraction(num1,num2);
             break;
-         // case '*': ans = num1 * num2;
-         //    break;
-         // case '/': ans = num1 / num2;
-         //    break;
+         case '*': ans = num1 * num2;
+            break;
+         case '/': ans = num1 / num2;
+            break;
          default:  System.out.printf("Error! Enter correct operator");
             return;
       }
